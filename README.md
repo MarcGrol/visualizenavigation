@@ -4,7 +4,9 @@ Convert user navigation logs (timestamp, session-id, screen-name) as input to bu
 Grapviz is used for visualisation.
 
 ##
-
+    # Assume you have golang installed
+    
+    # install the tool
     git clone https://github.com/MarcGrol/visualizenavigation.git
     cd visualizenavigation
     go install
