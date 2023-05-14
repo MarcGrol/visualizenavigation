@@ -1,3 +1,3 @@
-module github.com/MarcGrol/analyzeNavigation
+module github.com/MarcGrol/visualizenavigation
 
 go 1.20
