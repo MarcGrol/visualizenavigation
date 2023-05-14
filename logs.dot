@@ -1,0 +1,31 @@
+
+
+digraph mygraph {
+	rankdir = "TD"
+	"end" [shape=circle, style=filled, color=black, fontcolor=white];
+
+	"start" [shape=circle, style=filled, color=black, fontcolor=white];
+	"start" -> "login" [label="100% (4)", penwidth=6, color=red];
+
+	"login" [label="login\n29% (4)", penwidth=3, color=orange, href="https://ca-test.adyen.com/ca/ca/login"];
+	"login" -> "home" [label="100% (4)", penwidth=6, color=red];
+
+	"home" [label="home\n29% (4)", penwidth=3, color=orange, href="https://ca-test.adyen.com/ca/ca/home"];
+	"home" -> "view payments" [label="50% (2)", penwidth=6, color=red];
+	"home" -> "end" [label="25% (1)", penwidth=6, color=red];
+
+	"view payments" [label="view payments\n14% (2)", penwidth=2, color=black, href="https://ca-test.adyen.com/ca/ca/view payments"];
+	"view payments" -> "view payments list" [label="100% (2)", penwidth=6, color=red];
+
+	"view payments list" [label="view payments list\n14% (2)", penwidth=2, color=black, href="https://ca-test.adyen.com/ca/ca/view payments list"];
+	"view payments list" -> "end" [label="50% (1)", penwidth=6, color=red];
+	"view payments list" -> "view payments details" [label="50% (1)", penwidth=6, color=red];
+
+	"view payments details" [label="view payments details\n7% (1)", penwidth=1, color=grey, href="https://ca-test.adyen.com/ca/ca/view payments details"];
+	"view payments details" -> "end" [label="100% (1)", penwidth=6, color=red];
+
+	fontsize = "40"
+	label="Top 5 screens represent 93 % of CA clicks"
+	labelloc="t"
+
+}
