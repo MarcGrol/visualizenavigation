@@ -1,9 +1,10 @@
 # Visualize navigation
 
-Convert user navigation logs (timestamp, session-id, screen-name) as input to build a graph of user navigation.
-Grapviz is used for visualisation.
+Use access-logs (containing timestamp, session-id, screen-name) as input to build a graph of user navigation.
+Grapviz is used for the visualisation.
 
-##
+## Using the tool
+
     # Assume you have golang installed
     
     # install the tool
