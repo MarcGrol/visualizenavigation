@@ -1,0 +1,20 @@
+#timestamp; session-id; screen-name
+5; a; view payments details
+4; a; view payments list
+3; a; view payments
+2; a; home
+1; a; login
+1; b; login
+2; b; home
+3; b; view payments
+4; b; view payments list
+1; c; login
+2; c; home
+1; d; login
+2; d; home
+3; d; view commissions
+
+
+
+
+
